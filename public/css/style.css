@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+}
+
+.title-bar {
+    width: 100%;
+    height: 70px;
+    background-color: darkred;
+    line-height: 70px;
+}
+
+.title-bar p {
+    float: left;
+    padding-left: 180px;
+    color: white !important;
+    font-size: 20px;    
+}
+
+.menubar {
+    width: 400px;
+    border-radius: 5px;
+    margin: 0 auto;
+    height: 50px;
+    background-color: maroon;
+}
+
+.menu-container {
+    margin: 0 auto;
+    width: 350px;
+}
+
+.btn-circle {
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    margin-left: 10px;
+    float: left;
+    border-style: none;
+    background-color: indianred;
+    color: white;
+    outline: none;
+}
+
+.btn-circle:hover{
+    color: maroon;
+}
+
+.btn-active {
+    background-color: white;
+    color: maroon;
+}
+
+.day {
+    background-color: white;
+    border-radius: 3px;
+    color: darkred;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    border-style: solid;
+    border-color: darkred;
+    border-width: 2px;
+    font-weight: bolder;
+}
+
+.routine label {
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.total-time {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+table,
+tr,
+td {
+    border-style: solid;
+    border-color: maroon;
+    margin: 0 auto;
+}
+
+
+tr.active {
+    background: azure;
+    color: black;
+}
+
+tr.active td div.day{
+    background-color: darkred;
+    color: white;
+}
+
+#msg{
+    color: darkred;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.api{
+    float: right;
+    font-weight: lighter;
+    color:white;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.api a {
+    color: white;
+}
