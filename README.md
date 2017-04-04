@@ -1,8 +1,10 @@
 # Loadshedding Schedule
 Nepal loadshedding web app to view updated loadshedding schedule. The app is based on the schedule provided by Nepal Electricity Authority at http://nea.org.np/loadshedding.html .
 
-#Usage 
+# Usage
+```javascript
 npm install && node app
+```
 
 
 
